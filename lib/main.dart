@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
             RaisedButton(
               child: Text('Answer 3'),
               onPressed: () {
-                print('answer 3');
+                print('answer 3 - test');
               },
             ),
           ],
