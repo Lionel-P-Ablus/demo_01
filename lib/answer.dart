@@ -10,9 +10,10 @@ class Answer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      child: TextButton(
-        style: TextButton.styleFrom(
+      child: OutlinedButton(
+        style: OutlinedButton.styleFrom(
           primary: Colors.orange,
+          side: BorderSide(color: Colors.orange)
         ),
         child: Text(answerText),
         onPressed: selectHandler,
